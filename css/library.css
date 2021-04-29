@@ -1,0 +1,318 @@
+.first {
+    background: black;
+}
+
+.main-container {
+    background   : black;
+    display      : flex;
+    flex         : row;
+    position     : fixed;
+    top          : 0;
+    height       : 55px;
+    width        : 100%;
+    margin       : -15px 0 0 0;
+    border-bottom: solid 1px #404040;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link2 {
+    text-decoration: none;
+}
+
+.link:visited {
+    color: white;
+}
+
+.link2:visited {
+    color: white;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+.link:link {
+    color: white;
+}
+
+.link2:link {
+    color: white;
+}
+
+.photo-main {
+    padding: 27px 0 0 0;
+}
+
+.block-music {
+    padding: 9px 0 0 3px;
+    color  : white;
+}
+
+.block-main {
+    color  : white;
+    padding: 8px 0 200px 615px;
+}
+
+.main-title {
+    color: #B0B0B0;
+}
+
+.main-title:hover {
+    color: white;
+}
+
+.block-navigator {
+    color  : white;
+    padding: 8px 0 0 50px;
+}
+
+.navigtor-title {
+    color: #B0B0B0;
+}
+
+.navigtor-title:hover {
+    color: white;
+}
+
+.block-library {
+    color  : white;
+    padding: 8px 0 0 50px;
+}
+
+.library-title {
+    color: #B0B0B0;
+}
+
+.library-title:hover {
+    color: white;
+}
+
+
+
+/** Drop List**/
+
+
+.menu {
+    margin: 20px 0 0 670px;
+    width: 30%;
+    
+}
+
+.main-icons {
+    color    : tomato;
+    font-size: 4ex;
+    width    : auto;
+    
+}
+
+.icons {
+    font-size: 2.8ex;
+    color    : #A8A8A8
+}
+
+.submenu {
+    margin: 1px 0 0 -200px;
+    background   : #202020;
+    width        : 16%;
+    position: absolute;
+    list-style: none;
+    color     : #DCDCDC;
+    border: solid 1px #808080;
+    display: none;
+    padding: 0;
+    
+    
+}
+
+
+li>i.fas {
+    margin: 0 0 0 0;
+    padding-left: 20px;
+    font-size: 2.8ex;
+    color    : #A8A8A8;
+}
+
+
+
+
+ul.submenu>li:nth-child(1) {
+    margin: 0;
+    padding: 30px 0 0 40px;
+}
+
+ul.submenu>li:nth-child(2) {
+    margin: 0;
+    padding: 15px 0 0 40px;
+    border-bottom: solid 1px #DCDCDC;
+}
+
+ul.submenu>li:nth-child(6) {
+    border-bottom: solid 1px #DCDCDC;
+}
+
+
+
+.title-list {
+    margin: 15px 0 0 0;
+    
+}
+
+.title-text {
+    text-decoration: none;
+    margin: 0 0 0 30px;
+}
+.title-text:link {
+    color: #DCDCDC;
+}
+.title-text:visited {
+    color: #DCDCDC;
+}
+
+.title-text2 {
+    text-decoration: none;
+    margin: 0 0 0 30px;  
+}
+
+.title-text2:link {
+    color: #DCDCDC;
+}
+.title-text2:visited {
+    color: #DCDCDC;
+}
+
+
+.title-text3 {
+    text-decoration: none;
+    margin: 0 0 0 32px;  
+}
+
+.title-text3:link {
+    color: #DCDCDC;
+}
+.title-text3:visited {
+    color: #DCDCDC;
+}
+
+.title-text4 {
+    text-decoration: none;
+    margin: 0 0 0 34px;  
+}
+
+.title-text4:link {
+    color: #DCDCDC;
+}
+.title-text4:visited {
+    color: #DCDCDC;
+}
+
+.title-text5 {
+    text-decoration: none;
+    margin: 0 0 0 34px;  
+}
+
+.title-text5:link {
+    color: #DCDCDC;
+}
+.title-text5:visited {
+    color: #DCDCDC;
+}
+
+.title-text6 {
+    text-decoration: none;
+    margin: 0 0 0 29px;  
+}
+
+.title-text6:link {
+    color: #DCDCDC;
+}
+.title-text6:visited {
+    color: #DCDCDC;
+}
+
+.title-text7 {
+    text-decoration: none;
+    margin: 0 0 0 24px;  
+}
+
+.title-text7:link {
+    color: #DCDCDC;
+}
+.title-text7:visited {
+    color: #DCDCDC;
+}
+
+.title-text8 {
+    text-decoration: none;
+    margin: 0 0 0 29px;  
+}
+
+.title-text8:link {
+    color: #DCDCDC;
+}
+.title-text8:visited {
+    color: #DCDCDC;
+}
+.title-text9 {
+    text-decoration: none;
+    margin: 0 0 0 24px;  
+}
+
+.title-text9:link {
+    color: #DCDCDC;
+}
+.title-text9:visited {
+    color: #DCDCDC;
+}
+
+.title-text10 {
+    text-decoration: none;
+    margin: 0 0 0 29px;  
+}
+
+.title-text10:link {
+    color: #DCDCDC;
+}
+.title-text10:visited {
+    color: #DCDCDC;
+}
+
+.title-text11 {
+    text-decoration: none;
+    margin: 0 0 0 29px;  
+}
+
+.title-text11:link {
+    color: #DCDCDC;
+}
+.title-text11:visited {
+    color: #DCDCDC;
+}
+
+.title-text12 {
+    text-decoration: none;
+    margin: 0 0 0 34px;  
+}
+
+.title-text12:link {
+    color: #DCDCDC;
+}
+.title-text12:visited {
+    color: #DCDCDC;
+}
+
+.menu>div:hover>.submenu {
+    display: block;
+}
+
+
+.title-list3 {
+    margin: 15px 0 0 0;
+    
+    
+}
+
+
+
