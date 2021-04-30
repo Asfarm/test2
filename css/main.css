@@ -35,24 +35,59 @@
     img{vertical-align: top;}
     
     h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
-#first {
+    #first {
     background: black;
 }
 /** Navigarot **/
 
 
-.main-container {
-    width: 2400px;
-}
 
-.navigator-block-row {
+
+.navigator-block-row { 
+    height: 43px;   
+    width: 100%;
     background:black;
     display: flex;
     justify-content: space-between;
     position: fixed;
     border-bottom: solid 1px #404040;
-    border: solid 2px red;
+    
 }
+.navigator-row {
+    display: flex;
+}
+.navigator-colum-colum {
+    padding: 10px 0 0 15px;
+    
+}
+.navigator-colum-colum2 {
+    padding: 10px;
+    width: 500px;    
+}
+.navigator-colum-colum3 {
+   padding: 10px 15px 0 0;
+}
+.navigator-row2 {
+    display: flex;
+    justify-content: space-between;
+    
+ 
+    
+}
+.navigator-title {
+    font-size: 4ex;
+}
+.block-music {
+    align-self:flex-end;    
+}
+
+.navigator-title {
+    color: white;
+}
+
+
+
+
 
 .link {
     text-decoration: none;
@@ -130,25 +165,33 @@
     color: white;
 }
 
+.main-icons {    
+    color    : tomato;
+    font-size: 4ex;
+    max-width: auto;    
+    width: 100%;
+}
+
+img {
+    font-size: 10ex;  
+}
+.navigator-element2{
+    font-size: 4ex; 
+}
+
 
 
 /** Drop List**/
 
 
-.menu {
+/*.menu {
     margin: 20px 0 0 670px;
     max-width: 30%;
     list-style: none;
-}
+} */
 
-.main-icons {
-    color    : tomato;
-    font-size: 4ex;
-    max-width: auto;
-    
-}
 
-li>i.fas {
+/**li>i.fas {
     margin: 0 0 0 0;
     padding-left: 20px;
     font-size: 2.8ex;
@@ -353,7 +396,7 @@ ul.submenu>li:nth-child(6) {
 
 /**All these feelings**/
 
-.сarousel-title {
+/**.сarousel-title {
     color: white;
     margin: 54px 0 0 200px;
 }
@@ -385,7 +428,7 @@ ul.submenu>li:nth-child(6) {
 
 /** rock **/
 
-.block-rock {
+/**.block-rock {
     margin: 40px 0 0 0;
     color: white;
     width: 14%;
@@ -403,7 +446,7 @@ ul.submenu>li:nth-child(6) {
 
 /** Wave **/
 
-.block-wave {
+/**.block-wave {
     margin: 40px 0 0 0;
     color: white;
     width: 14%;
@@ -421,7 +464,7 @@ ul.submenu>li:nth-child(6) {
 
 /** Pop **/
 
-.block-pop {
+/**.block-pop {
     margin: 40px 0 0 0;
     color: white;
     width: 14%;
@@ -439,7 +482,7 @@ ul.submenu>li:nth-child(6) {
 
 /** light **/
 
-.block-light {
+/**.block-light {
     margin: 40px 0 0 0;
     color: white;
     width: 14%;
@@ -457,7 +500,7 @@ ul.submenu>li:nth-child(6) {
 
 /** EDM **/
 
-.block-edm {
+/**.block-edm {
     margin: 40px 0 0 0;
     color: white;
     width: 14%;
@@ -475,7 +518,7 @@ ul.submenu>li:nth-child(6) {
 
 /** сarousel2 **/
 
-.сarousel2-title {
+/**.сarousel2-title {
     color: white;
     margin: 100px 0 0 200px;
 }
@@ -578,7 +621,7 @@ ul.submenu>li:nth-child(6) {
 
 /** сarousel3 **/
 
-.carousel3-main {
+/**.carousel3-main {
     color: #E0FFFF;
     margin: 100px 0 0 200px;
 }
@@ -644,7 +687,7 @@ ul.submenu>li:nth-child(6) {
 
 /** Carousel4 **/
 
-.carousel4-container {
+/**.carousel4-container {
     display: flex;
     flex: row;
 }
@@ -700,7 +743,7 @@ ul.submenu>li:nth-child(6) {
 
 /** Carousel5 **/
 
-.carousel5-container {
+/**.carousel5-container {
     display: flex;
     flex: row;
 }
@@ -756,7 +799,7 @@ ul.submenu>li:nth-child(6) {
 
 /** Carousel6 **/
 
-.carousel6-container {
+/**.carousel6-container {
     display: flex;
     flex: row;
 }
@@ -810,7 +853,7 @@ ul.submenu>li:nth-child(6) {
 }
 
 /** Video **/
-.video-name {
+/**.video-name {
     color: white;
     margin: 100px 0 0 210px;
     
