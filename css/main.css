@@ -38,6 +38,10 @@
     #first {
     background: black;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /** Navigarot **/
 
 
@@ -62,7 +66,7 @@
 }
 .navigator-colum-colum2 {
     padding: 10px;
-    width: 500px;    
+    width: 620px;    
 }
 .navigator-colum-colum3 {
    padding: 10px 15px 0 0;
@@ -70,19 +74,15 @@
 .navigator-row2 {
     display: flex;
     justify-content: space-between;
-    
- 
-    
 }
-.navigator-title {
-    font-size: 4ex;
-}
+
 .block-music {
     align-self:flex-end;    
 }
 
 .navigator-title {
-    color: white;
+    color: #B0B0B0;
+    font-size: 4ex;
 }
 
 
@@ -177,6 +177,7 @@ img {
 }
 .navigator-element2{
     font-size: 4ex; 
+    color: #B0B0B0;
 }
 
 
@@ -184,30 +185,30 @@ img {
 /** Drop List**/
 
 
-/*.menu {
-    margin: 20px 0 0 670px;
+.menu {
+    
     max-width: 30%;
     list-style: none;
-} */
+} 
 
 
-/**li>i.fas {
+li>i.fas {
     margin: 0 0 0 0;
     padding-left: 20px;
     font-size: 2.8ex;
     color    : #A8A8A8;
 }
 
-.submenu {
-    margin: 1px 0 0 -200px;
-    background   : #202020;
-    max-width        : 16%;
+ .submenu {
+    background: #202020;
+    max-width: 16%;
     position: absolute;
-    list-style: none;
-    color     : #DCDCDC;
+    top: 40px;
+    right: 0;
+    color : #DCDCDC;
     border: solid 1px #808080;
     display: none;
-    padding: 0;
+    
     
 }
 
@@ -383,7 +384,7 @@ ul.submenu>li:nth-child(6) {
     color: #DCDCDC;
 }
 
-.menu>div:hover>.submenu {
+.navigator-colum-colum3>.icon>.menu>div:hover>.submenu {
     display: block;
 }
 
